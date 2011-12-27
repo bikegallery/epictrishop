@@ -1,37 +1,90 @@
 /*
-Theme Name: Starkers
-Theme URI: http://elliotjaystocks.com
-Description: The totally nude Wordpress theme. Phwoar! (Based on Twenty Ten)
-Version: 3.0
-Author: Elliot Jay Stocks
-Author URI: http://elliotjaystocks.com
-Tags: starkers, naked, clean, basic
+Theme Name: Epic Tri Shop
+Theme URI: none
+Description: Custom theme for Epic Tri Shop
+Version: 0.1
+Author: Jason Britton
+Tags: clean, basic
 */
 
 @import "css/1140.css";
 
+/* Body and general styling _________________________________*/
+
 body {
 	background: #636469; 
+	color: #fff;
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	font-size: 16px;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
 }
 
 li {
 	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+a,
+a:visited {
+	color: #ccc;
+	font-style: italic;
+	text-decoration: none;
+}
+
+a:hover,
+a:active {
+	color: #F37421;
+}
+
+.current_page_item a {
+	background: #08c;
+	color: #fff;
 }
 
 .screen_reader {
 	visibility: hidden;
 }
 
+
+/* Container and general _________________________________*/
+
 .container {
-	background: #fff;
-	-moz-box-shadow: 0 0 10px #333;
+	/* -moz-box-shadow: 0 0 10px #333; */
 }
 
-.header {
-	background: #ccc;
+
+/* Header _________________________________*/
+
+.opening {
+	text-align: center;
 }
 
-.current_page_item {
-	background: #08c;
-	color: #fff;
+.header h1 {
+	font-size: 2em;
 }
+
+.header h1 a {
+	font-style: normal;
+}
+
+
+/* Sidebar and Content _________________________________*/
+
+.content {
+	margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
