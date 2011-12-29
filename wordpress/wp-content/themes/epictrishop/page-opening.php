@@ -1,6 +1,7 @@
 <?php
 /**
- * The Header for our theme.
+ *
+ * Template Name: Store Opening Page
  *
  *
  * @package WordPress
@@ -27,13 +28,13 @@
 	<section class="container">
 		<header class="header row">
 			<section class="threecol">
-				<img src="/wordpress/wp-content/themes/epictrishop/images/epictrishop_logo.png" alt="Epic Tri Shop" />
+				<a href="/" class="header_logo"><img src="/wordpress/wp-content/themes/epictrishop/images/epictrishop_logo.png" alt="Epic Tri Shop" /></a>
 			</section><!-- .threecol -->
 			<section class="ninecol opening last">
 				<h1>
 					Grand Opening on January 8th!
 				</h1>
-				<p><?php bloginfo( 'description' ); ?></p>
+<!--				<p><?php bloginfo( 'description' ); ?></p> -->
 
 			</section><!-- .twelvecol -->
 		</header><!-- .row -->
@@ -42,10 +43,16 @@
 
 			<section class="threecol content">
 
-				<h3>Store Hours</h3>
 				<ul>
-					<li>Mon&ndash;Sat: 10am to 6pm</li>
+					<li><h3>Hours</h3></li>
+					<li>Mon&nbsp;&ndash;&nbsp;Sat: 10am to 6pm</li>
 					<li>Sun: Noon to 5pm</li>
+				</ul>
+
+				<ul>
+					<li><h3>Location</h3></li>
+					<li><address>12345 SW Canyon Blvd Beaverton, OR 97005</address></li>
+					<li><a href="http://g.co/maps/a9xxq" title="Google Map" target="_blank">Map</a></li>
 				</ul>
 
 			</section><!-- .threecol .content -->
@@ -62,16 +69,4 @@
 
 				<?php endwhile; ?>
 
-
-			</section><!-- .ninecol .content -->
-		</section><!-- .row .last -->
-		
-		<footer class="row">
-			Part of the <a href="http://bikegallery.com" title="Bike Gallery">Bike Gallery</a> family
-		</footer><!-- .row -->
-	</section><!-- .container -->
-
-<?php wp_footer(); ?>
-
-</body>
-</html>
+<?php get_footer(); ?>

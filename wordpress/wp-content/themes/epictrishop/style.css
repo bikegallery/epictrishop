@@ -18,6 +18,11 @@ body {
 	font-size: 16px;
 }
 
+h3 {
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
 ul {
 	margin: 0;
 	padding: 0;
@@ -25,7 +30,7 @@ ul {
 
 li {
 	list-style-type: none;
-	margin: 0;
+	margin: 0 0 10px 0;
 	padding: 0;
 }
 
@@ -39,6 +44,11 @@ a:visited {
 a:hover,
 a:active {
 	color: #F37421;
+}
+
+p {
+	margin: 0;
+	padding: 0;
 }
 
 .current_page_item a {
@@ -75,16 +85,43 @@ a:active {
 
 /* Sidebar and Content _________________________________*/
 
+.featured_brands {
+	text-align: center;
+}
+
+.featured_brands img {
+	max-width: 100%;
+	vertical-align: middle;
+}
+
 .content {
 	margin-bottom: 20px;
 }
 
+.content p {
+	font-size: 1.2em;
+	margin-bottom: 15px;
+}
 
 
+/* Footer _________________________________*/
 
+.footer {
+/*	background: #333; */
+	text-align: center;
+}
 
+.footer p {
+	margin-top: 20px;
+	padding: 10px;
+}
 
+a.bikegallery_link {
+	color: #ffd204;
+}
 
-
+a.bikegallery_link:hover {
+	color: #fff;
+}
 
 

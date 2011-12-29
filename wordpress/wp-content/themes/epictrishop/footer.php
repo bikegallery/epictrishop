@@ -11,12 +11,22 @@
  */
 ?>
 
-			</section><!-- .tencol .content -->
+			</section><!-- .ninecol .content -->
 		</section><!-- .row .last -->
 		
-		<footer class="row">
-			Part of the <a href="http://bikegallery.com" title="Bike Gallery">Bike Gallery</a> family.
-			<a href="http://wordpress.org/" title="Semantic Personal Publishing Platform" rel="generator">Proudly powered by WordPress </a>
+		<section class="row featured_brands">
+			<h3>Our Featured Brands</h3>
+			<div class="twocol">
+			<img src="/wordpress/wp-content/themes/epictrishop/images/bontrager_logo.png" alt="Trek Logo" /></div>
+			<div class="twocol">
+			<img src="/wordpress/wp-content/themes/epictrishop/images/trek_logo.png" alt="Trek Logo" /></div>
+			<div class="twocol">
+		<img src="/wordpress/wp-content/themes/epictrishop/images/specialized_logo.png" alt="Trek Logo" /></div>
+		</section><!-- .row -->
+
+		<footer class="row footer">
+			<p>Part of the <a href="http://bikegallery.com" class="bikegallery_link" title="Bike Gallery">Bike Gallery</a> family</p>
+<!--			<a href="http://wordpress.org/" title="Semantic Personal Publishing Platform" rel="generator">Proudly powered by WordPress </a> -->
 		</footer><!-- .row -->
 	</section><!-- .container -->
 
