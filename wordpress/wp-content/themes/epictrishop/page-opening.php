@@ -55,6 +55,11 @@
 					<li><a href="http://g.co/maps/a9xxq" title="Google Map" target="_blank">Map</a></li>
 				</ul>
 
+				<div class="featured_brands">
+					<img src="/wordpress/wp-content/themes/epictrishop/images/trek_logo.png" alt="Trek Logo" />
+					<img src="/wordpress/wp-content/themes/epictrishop/images/bontrager_logo.png" alt="Trek Logo" />
+					<img src="/wordpress/wp-content/themes/epictrishop/images/specialized_logo.png" alt="Specialized Logo" />
+				</div>
 			</section><!-- .threecol .content -->
 
 			<section class="ninecol content last">
