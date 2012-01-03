@@ -32,7 +32,7 @@
 			</section><!-- .threecol -->
 			<section class="ninecol opening last">
 				<h1>
-					Grand Opening on January 8th!
+					Opening January 17th, 2012!
 				</h1>
 <!--				<p><?php bloginfo( 'description' ); ?></p> -->
 
