@@ -17,13 +17,24 @@
 <!--		<section class="row featured_brands">
 			<h3>Our Featured Brands</h3>
 			<div class="twocol">
-			<img src="/wordpress/wp-content/themes/epictrishop/images/bontrager_logo.png" alt="Trek Logo" /></div>
+				<a href="http://trekbikes.com/us/en/" title="Trek Bike" target="_blank">
+					<img src="/wordpress/wp-content/themes/epictrishop/images/trek_logo.png" alt="Trek Logo" />
+				</a>
+			</div>
+
 			<div class="twocol">
-			<img src="/wordpress/wp-content/themes/epictrishop/images/trek_logo.png" alt="Trek Logo" /></div>
+				<a href="http://bontrager.com" title="Bontrager" target="_blank">
+					<img src="/wordpress/wp-content/themes/epictrishop/images/bontrager_logo.png" alt="Bontrager Logo" />
+				</a>
+			</div>
+
 			<div class="twocol">
-		<img src="/wordpress/wp-content/themes/epictrishop/images/specialized_logo.png" alt="Trek Logo" /></div>
+				<a href="http://specialized.com/us/en/bc/home.jsp" title="Specialized" target="_blank">
+					<img src="/wordpress/wp-content/themes/epictrishop/images/specialized_logo.png" alt="Specialized Logo" />
+				</a>
+			</div>
 		</section><!-- .row -->
--->
+
 		<footer class="row footer">
 			<p>Part of the <a href="http://bikegallery.com" class="bikegallery_link" title="Bike Gallery">Bike Gallery</a> family</p>
 <!--			<a href="http://wordpress.org/" title="Semantic Personal Publishing Platform" rel="generator">Proudly powered by WordPress </a> -->

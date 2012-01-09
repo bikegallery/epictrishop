@@ -16,6 +16,7 @@ body {
 	color: #fff;
 	font-family: 'Trebuchet MS', Helvetica, sans-serif;
 	font-size: 16px;
+	margin: 0;
 }
 
 h3 {
@@ -37,7 +38,6 @@ li {
 a,
 a:visited {
 	color: #ccc;
-	font-style: italic;
 	text-decoration: none;
 }
 
@@ -72,6 +72,26 @@ p {
 
 .opening {
 	text-align: center;
+}
+
+.store_info {
+	background: #fafafa;
+	-webkit-border-radius: 0 0 5px 5px;
+	-moz-border-radius: 0 0 5px 5px;
+	-o-border-radius: 0 0 5px 5px;
+	border-radius: 0 0 5px 5px;
+	-moz-box-shadow: 0 0 2px #333;
+}
+
+.store_info ul {
+	text-align: center;
+}
+
+.store_info ul li {
+	color: #999;
+	display: inline-block;	
+	margin: 0 0 5px 0;
+	padding: 5px;
 }
 
 .header h1 {
@@ -118,6 +138,7 @@ p {
 
 a.bikegallery_link {
 	color: #ffd204;
+	font-weight: bold;
 }
 
 a.bikegallery_link:hover {

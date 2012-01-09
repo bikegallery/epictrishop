@@ -31,6 +31,18 @@
 				<a href="/" class="header_logo"><img src="/wordpress/wp-content/themes/epictrishop/images/epictrishop_logo.png" alt="Epic Tri Shop" /></a>
 			</section><!-- .threecol -->
 			<section class="ninecol opening last">
+				<div class="store_info">
+					<ul>
+						<li>Mon&nbsp;&ndash;&nbsp;Sat: 10 to 6</li>
+						<li>Sun: Noon to 5</li>
+
+						<li>|</li>
+
+						<li><address>12345 SW Canyon Blvd Beaverton, OR 97005</address></li>
+						<li><a href="http://g.co/maps/a9xxq" title="Google Map" target="_blank">Map</a></li>
+					</ul>
+					
+				</div>
 				<h1>
 					Opening January 17th, 2012!
 				</h1>
@@ -43,22 +55,10 @@
 
 			<section class="threecol content">
 
-				<ul>
-					<li><h3>Hours</h3></li>
-					<li>Mon&nbsp;&ndash;&nbsp;Sat: 10am to 6pm</li>
-					<li>Sun: Noon to 5pm</li>
-				</ul>
-
-				<ul>
-					<li><h3>Location</h3></li>
-					<li><address>12345 SW Canyon Blvd Beaverton, OR 97005</address></li>
-					<li><a href="http://g.co/maps/a9xxq" title="Google Map" target="_blank">Map</a></li>
-				</ul>
-
 				<div class="featured_brands">
-					<img src="/wordpress/wp-content/themes/epictrishop/images/trek_logo.png" alt="Trek Logo" />
-					<img src="/wordpress/wp-content/themes/epictrishop/images/bontrager_logo.png" alt="Trek Logo" />
-					<img src="/wordpress/wp-content/themes/epictrishop/images/specialized_logo.png" alt="Specialized Logo" />
+					<a href="http://trekbikes.com/us/en/" title="Trek Bike" target="_blank"><img src="/wordpress/wp-content/themes/epictrishop/images/trek_logo.png" alt="Trek Logo" /></a>
+					<a href="http://bontrager.com" title="Bontrager" target="_blank"><img src="/wordpress/wp-content/themes/epictrishop/images/bontrager_logo.png" alt="Bontrager Logo" /></a>
+					<a href="http://specialized.com/us/en/bc/home.jsp" title="Specialized" target="_blank"><img src="/wordpress/wp-content/themes/epictrishop/images/specialized_logo.png" alt="Specialized Logo" /></a>
 				</div>
 			</section><!-- .threecol .content -->
 
