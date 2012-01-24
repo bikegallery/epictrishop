@@ -35,6 +35,10 @@ li {
 	padding: 0;
 }
 
+h1 {
+	margin: 2em 0;
+}
+
 a,
 a:visited {
 	color: #ccc;
@@ -111,6 +115,157 @@ p {
 
 .featured_brands img {
 	max-width: 100%;
+	vertical-align: middle;
+}
+
+.content {
+	margin-bottom: 20px;
+}
+
+.content p {
+	font-size: 1.2em;
+	margin-bottom: 15px;
+}
+
+
+/* Footer _________________________________*/
+
+.footer {
+/*	background: #333; */
+	text-align: center;
+}
+
+.footer p {
+	margin-top: 20px;
+	padding: 10px;
+}
+
+a.bikegallery_link {
+	color: #ffd204;
+	font-weight: bold;
+}
+
+a.bikegallery_link:hover {
+	color: #fff;
+}
+
+
+/*
+Theme Name: Epic Tri Shop
+Theme URI: none
+Description: Custom theme for Epic Tri Shop
+Version: 0.1
+Author: Jason Britton
+Tags: clean, basic
+*/
+
+@import "css/1140.css";
+
+/* Body and general styling _________________________________*/
+
+body {
+	background: #636469; 
+	color: #fff;
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	font-size: 16px;
+	margin: 0;
+}
+
+h3 {
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+a,
+a:visited {
+	color: #ccc;
+	text-decoration: none;
+}
+
+a:hover,
+a:active {
+	color: #F37421;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+.current_page_item a {
+	background: #08c;
+	color: #fff;
+}
+
+.screen_reader {
+	visibility: hidden;
+}
+
+
+/* Container and general _________________________________*/
+
+.container {
+	/* -moz-box-shadow: 0 0 10px #333; */
+}
+
+
+/* Header _________________________________*/
+
+.opening {
+	text-align: center;
+}
+
+.store_info {
+	background: #fafafa;
+	-webkit-border-radius: 0 0 5px 5px;
+	-moz-border-radius: 0 0 5px 5px;
+	-o-border-radius: 0 0 5px 5px;
+	border-radius: 0 0 5px 5px;
+	-moz-box-shadow: 0 0 2px #333;
+}
+
+.store_info ul {
+	text-align: center;
+}
+
+.store_info ul li {
+	color: #999;
+	display: inline-block;	
+	margin: 0 0 5px 0;
+	padding: 5px;
+}
+
+.header h1 {
+	font-size: 2em;
+}
+
+.header h1 a {
+	font-style: normal;
+}
+
+
+/* Sidebar and Content _________________________________*/
+
+.featured_brands {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.featured_brands img {
+	display: block;
+	margin: 0 auto 20px;
+	max-width: 50%;
 	vertical-align: middle;
 }
 
