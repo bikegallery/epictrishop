@@ -184,6 +184,7 @@ p {
 
 .nav {
 	background: #000;
+	border-top: 2px solid #fafafa;
 }
 
 .nav ul{
