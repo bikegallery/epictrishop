@@ -60,9 +60,9 @@
 			</div><!-- .grid_3 .epic_logo -->
 			
 			<div class="grid_9 banner_image">
-				<h1>
+				<!--<h1>
 					Grand Opening January 25th 7&mdash;9pm
-				</h1>
+				</h1> -->
 <!--				<p><?php bloginfo( 'description' ); ?></p> -->
 
 			</div><!-- .grid_9 .banner_image -->

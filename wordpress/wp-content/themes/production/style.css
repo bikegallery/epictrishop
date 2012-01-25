@@ -43,13 +43,13 @@ li {
 
 a,
 a:visited {
-	color: #ccc;
+	color: #f37421;
 	text-decoration: none;
 }
 
 a:hover,
 a:active {
-	color: #F37421;
+	color: #ccc;
 }
 
 p {
@@ -64,6 +64,51 @@ p {
 
 .screen_reader {
 	visibility: hidden;
+}
+
+.no_display {
+	display: none;
+}
+
+/* Event Espresso specific styling */
+.event-display-boxes th {
+	background: transparent;
+}
+
+.event-display-boxes td {
+	padding: 0 30px;
+}
+
+#event_title-1,
+.event-meta {
+	display: none;
+}
+
+.clinic_info,
+.clinic_price {
+	padding-left: 40px;
+}
+
+.register-link-footer {
+	text-align: center;
+}
+
+.espresso_social {
+	display: none;
+}
+
+#registration_form .event_address {
+	margin-bottom: 20px;
+}
+
+#registration_form .event_address,
+#registration_form .grouped_info {
+	float: left;
+	width: 49%;
+}
+
+#espresso_confirmation_display p {
+	font-size: .9em;
 }
 
 
@@ -120,7 +165,7 @@ p {
 }
 
 .banner_image {
-	background: url(http://trekroad.typepad.com/.a/6a00d8354a960d53ef0120a80ca4c7970b-800wi) 0% 20%;
+	background: url(/wordpress/wp-content/themes/production/images/banner_image.jpg) 0% 20%;
 	min-height: 250px;
 }
 
@@ -139,7 +184,6 @@ p {
 
 .nav {
 	background: #000;
-	display: none;
 }
 
 .nav ul{
@@ -180,6 +224,12 @@ p {
 .content {
 	margin-bottom: 20px;
 	padding: 20px 0;
+}
+
+.content h1 {
+	border-bottom: 1px solid #fafafa;
+	font-size: 1.75em;
+	margin-bottom: 15px;
 }
 
 .content p {
