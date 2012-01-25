@@ -9,6 +9,8 @@
 
 get_header(); ?>
 
+	<div class="grid_6 content">
+
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
 					<?php previous_post_link( '%link', '' . _x( '&larr;', 'Previous post link', 'twentyten' ) . ' %title' ); ?>
@@ -40,5 +42,17 @@ get_header(); ?>
 
 <?php endwhile; // end of the loop. ?>
 
-<?php get_sidebar(); ?>
+			</div><!-- .grid_6 .content -->
+
+                        <aside class="grid_3 sidebar">
+                                <?php if ( is_active_sidebar('primary-widget-area') ) : ?>
+
+                                <ul class="xoxo">
+                                        <?php dynamic_sidebar('primary-widget-area'); ?>
+                                </ul>
+
+                                <?php endif; ?>
+                        </aside><!-- .grid_3 .sidebar -->
+
+
 <?php get_footer(); ?>

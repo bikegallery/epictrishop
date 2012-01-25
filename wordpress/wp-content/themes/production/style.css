@@ -1,15 +1,21 @@
 /*
-Theme Name: Epic Tri Shop
+Theme Name: Epic Production
 Theme URI: none
 Description: Custom theme for Epic Tri Shop
 Version: 0.1
 Author: Jason Britton
 Tags: clean, basic
 */
+@import "reset.css";
+@import "grid.css";
 
-@import "css/1140.css";
 
 /* Body and general styling _________________________________*/
+
+html {
+	margin: 0;
+	padding: 0;
+}
 
 body {
 	background: #636469; 
@@ -63,53 +69,65 @@ p {
 
 /* Container and general _________________________________*/
 
-.container {
-	/* -moz-box-shadow: 0 0 10px #333; */
-}
-
-.row {
-	background: #fafafa;
+.container_12 {
+	-moz-box-shadow: 0 0 10px #333;
 }
 
 
 /* Header _________________________________*/
 
-.epic_logo a {
-	padding-left: 3.8%;
+.header {
+	background: #fafafa;
 }
 
-.banner_image {
-	background: url(http://trekroad.typepad.com/.a/6a00d8354a960d53ef0120a80ca4c7970b-800wi) 100% 20%;
-	min-height: 250px;
+/* Setting width and margin for store info */
+.header .grid_12 {
+	margin: 0;
+	width: 1140px;
 }
 
-.header h1 {
-	text-align: center;
-}
-
-.store_info {
+.top_header {
 	background: #333;
-/*	-webkit-border-radius: 0 0 5px 5px;
-	-moz-border-radius: 0 0 5px 5px;
-	-o-border-radius: 0 0 5px 5px;
-	border-radius: 0 0 5px 5px;
-*/
 	-moz-box-shadow: 0 0 2px #333;
-}
-
-.store_info ul {
-	text-align: center;
 }
 
 .store_info ul li {
 	color: #999;
 	display: inline-block;	
-	margin: 0 0 5px 0;
+	margin: 3px 0 3px 0;
 	padding: 5px;
+}
+
+.header_widget .textwidget {
+	margin: 0 0 2px 0;
+	padding: 5px;
+	text-align: right;
+}
+
+.header_widget img {
+	max-width: 25px;
+}
+
+/* Setting width and margin for banner image */
+.header .grid_9 {
+	margin-right: 0;
+	width: 845px;
+}
+
+.epic_logo img {
+	margin: 14px 0;
+	max-width: 100%;
+}
+
+.banner_image {
+	background: url(http://trekroad.typepad.com/.a/6a00d8354a960d53ef0120a80ca4c7970b-800wi) 0% 20%;
+	min-height: 250px;
 }
 
 .header h1 {
 	font-size: 2em;
+	margin: 100px 0;
+	text-align: center;
 }
 
 .header h1 a {
@@ -117,11 +135,37 @@ p {
 }
 
 
+/* Navigation _________________________________*/
+
+.nav {
+	background: #000;
+	display: none;
+}
+
+.nav ul{
+	padding: 10px 0;
+	text-align: center;
+}
+
+.nav ul li {
+	display: inline-block;
+	margin: 0 15px;
+}
+
+.nav ul li a {
+	font: 1.23em bold;
+	text-transform: uppercase;
+}
+
+
 /* Sidebar and Content _________________________________*/
 
+.viewer {
+	background: #333;
+	border-top: 2px solid #fafafa;
+}
+
 .featured_brands {
-	margin-right: 0 !important;
-	padding-right: 3.8% !important;
 	padding-top: 20px;
 	text-align: center;
 }
@@ -133,15 +177,9 @@ p {
 	vertical-align: middle;
 }
 
-.content,
-.sidebar {
-	background: #fafafa;
-}
-
 .content {
 	margin-bottom: 20px;
-	margin-right: 0 !important;
-	padding-right: 3.8% !important;
+	padding: 20px 0;
 }
 
 .content p {
@@ -149,16 +187,45 @@ p {
 	margin-bottom: 15px;
 }
 
+/* Comments */
+#respond {
+	margin: 0 auto;
+	width: 500px;
+}
+
+#respond h3 {
+	border-bottom: 1px solid #fafafa;
+	text-align: center;
+}
+
+#respond li {
+	display: block;
+	margin-bottom: 20px;
+}
+
+.form-allowed-tags {
+	margin-top: 20px;
+}
+
+#respond input[type="text"],
+#respond textarea {
+	float: right;
+}
+
+.form-submit {
+	text-align: center;
+}
+
 
 /* Footer _________________________________*/
 
 .footer {
-/*	background: #333; */
+	border-top: 2px solid #fafafa;
+	background: #333;
 	text-align: center;
 }
 
 .footer p {
-	margin-top: 20px;
 	padding: 10px;
 }
 

@@ -11,25 +11,15 @@
  */
 ?>
 
-			</section><!-- .sixcol .content -->
+		<div class="clear">&nbsp;</div>
+		</section><!-- .viewer -->
 
-			<section class="threecol last sidebar">
-				<?php if ( is_active_sidebar('primary-widget-area') ) : ?>
-
-				<ul class="xoxo">
-					<?php dynamic_sidebar('primary-widget-area'); ?>
-				</ul>
-
-				<?php endif; ?>
-			</section><!-- .threecol .last -->
-		</section><!-- .row .general_body -->
-
-		<footer class="row footer">
+		<footer class="footer">
 			<p>Part of the <a href="http://bikegallery.com" class="bikegallery_link" title="Bike Gallery">Bike Gallery</a> family</p>
 <!--			<a href="http://wordpress.org/" title="Semantic Personal Publishing Platform" rel="generator">Proudly powered by WordPress </a> -->
 		</footer><!-- .row -->
-	</section><!-- .container -->
 
+	</section><!-- .container_12 -->
 <?php wp_footer(); ?>
 
 </body>
